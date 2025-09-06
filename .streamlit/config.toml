@@ -1,0 +1,15 @@
+[theme]
+#primary accent color of interactive elements 
+primaryColor = "#00bcd4"
+
+#background color for the main content area
+backgroundColor = "#0f111a"
+
+#background color used for the sidebar and most interactive widgets
+secondaryBackgroundColor = "#1f2b3a"
+
+#color used for almost all text
+textColor = "#ffffff"
+
+[client]
+toolbarMode = 'minimal'
