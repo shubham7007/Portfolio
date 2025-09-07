@@ -10,28 +10,23 @@ about_page = st.Page(
 )
 
 project_1_page = st.Page(
-    page='views/sales_dashboard.py',
-    title='Sales Dashboard',
-    icon=":material/smart_toy:",
+    page='views/car_price_prediction.py',
+    title='Used Car Price Estimation',
+    icon=":material/directions_car:",
 )
 
 project_2_page = st.Page(
     page = 'views/chatbot.py', 
-    title = 'Chat',
+    title = 'Chat-Bot',
     icon = ':material/chat:',
 )
 
-project_3_page = st.Page(
-    page ='views/jscheck.py',
-    title = 'jsCheck',
-    icon = ':material/smart_toy:'
-)
 #navigation setup 
 # pg = st.navigation(pages=[about_page, project_1_page, project_2_page])
 pg = st.navigation(
     {
         "Info": [about_page],
-        "Projects": [project_1_page, project_2_page, project_3_page],
+        "Projects": [project_1_page, project_2_page],
     }
 )
 

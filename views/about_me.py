@@ -4,17 +4,6 @@ from utils.ui import set_animated_background
 #calling particle bg function
 
 
-# st.title('About me')
-# #hero section
-# col1, col2 = st.columns(2, gap='small', vertical_alignment='center')
-# with col1:
-#     st.image('./assets/portfolio_logo.jpg', width=230)
-# with col2:
-#     st.title('Shubham Rai', anchor=False)
-#     st.write(
-#         'aspiring data scientist/AI/ML engineer and ex vFX-td(tools_dev_python)always to ready to take challenges and a good learner '
-#     )
-
 
 import streamlit as st
 from PIL import Image
@@ -547,29 +536,25 @@ elif page == "🎓 Education":
     """, unsafe_allow_html=True)
 
 elif page == "💼 Work Experience":
-    st.markdown('<h1 class="section-header">💼 Work Experience</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="section-header"> Work Experience</h1>', unsafe_allow_html=True)
     
     st.markdown("""
     <div class="timeline-item">
         <div class="item-title">VFX Technical Director - Tools Developer</div>
-        <div class="item-company">Studio/Company Name</div>
+        <div class="item-company">Technicolor India</div>
         <div class="item-date">2020 - 2023</div>
         <p>• Developed Python tools and scripts for VFX pipeline automation<br>
         • Optimized workflows resulting in 40% time savings<br>
-        • Collaborated with artists and supervisors to create custom solutions<br>
-        • Maintained and improved existing toolsets</p>
+        • Collaborated with artists and supervisors to create technical special effects<br>
     </div>
     """, unsafe_allow_html=True)
     
     st.markdown("""
     <div class="timeline-item">
-        <div class="item-title">Data Science Intern</div>
-        <div class="item-company">Company Name</div>
-        <div class="item-date">2022 - 2022</div>
-        <p>• Built predictive models using machine learning algorithms<br>
-        • Performed data cleaning and exploratory data analysis<br>
-        • Created visualizations and reports for stakeholders<br>
-        • Worked with large datasets and SQL databases</p>
+        <div class="item-title">Data Science </div>
+        <p>• Fresher in Datascience, looking for apportunitues in it, always eager to learn about
+                new and upcoming techs so i jumped into DataScience And i am a good learner too.<br>
+
     </div>
     """, unsafe_allow_html=True)
 
@@ -581,10 +566,6 @@ elif page == "🛠️ Skills":
     st.markdown("""
     <div style="margin: 1rem 0;">
         <span class="skill-tag">Python</span>
-        <span class="skill-tag">R</span>
-        <span class="skill-tag">SQL</span>
-        <span class="skill-tag">JavaScript</span>
-        <span class="skill-tag">C++</span>
     </div>
     """, unsafe_allow_html=True)
     
@@ -594,9 +575,7 @@ elif page == "🛠️ Skills":
     <div style="margin: 1rem 0;">
         <span class="skill-tag">Pandas</span>
         <span class="skill-tag">NumPy</span>
-        <span class="skill-tag">Scikit-learn</span>
-        <span class="skill-tag">TensorFlow</span>
-        <span class="skill-tag">PyTorch</span>
+        <span class="skill-tag">Scikit-learn</span>        
         <span class="skill-tag">Matplotlib</span>
         <span class="skill-tag">Seaborn</span>
         <span class="skill-tag">Plotly</span>
@@ -609,11 +588,8 @@ elif page == "🛠️ Skills":
     <div style="margin: 1rem 0;">
         <span class="skill-tag">Git</span>
         <span class="skill-tag">Docker</span>
-        <span class="skill-tag">AWS</span>
         <span class="skill-tag">Jupyter</span>
         <span class="skill-tag">Streamlit</span>
-        <span class="skill-tag">MySQL</span>
-        <span class="skill-tag">MongoDB</span>
     </div>
     """, unsafe_allow_html=True)
 
@@ -623,41 +599,20 @@ elif page == "📊 Projects":
     # Project 1
     st.markdown("""
     <div class="project-card">
-        <h3 style="color: #4ecdc4;">🎯 Customer Churn Prediction</h3>
-        <p><strong>Tech Stack:</strong> Python, Scikit-learn, Pandas, Matplotlib</p>
-        <p>Built a machine learning model to predict customer churn with 92% accuracy. 
+        <h3 style="color: #4ecdc4;"> Used Car Price Estimator</h3>
+        <p><strong>Tech Stack:</strong> Python, Scikit-learn, Pandas, Streamlit, Github</p>
+        <p>Built a machine learning model to predict used car price , 
         Implemented feature engineering, model selection, and hyperparameter tuning. 
-        Created an interactive dashboard for business stakeholders.</p>
-        <p><strong>Key Results:</strong> Helped reduce churn by 15% through targeted interventions</p>
+        Used Random Forest Regressor for model training,accuracy calculated using r2 score 92% test set.</p>
+        <p><strong>Key Results:</strong> Helped to search used cars according to brand,seats, engine and other feautures</p>
     </div>
     """, unsafe_allow_html=True)
     
-    # Project 2
-    st.markdown("""
-    <div class="project-card">
-        <h3 style="color: #4ecdc4;">📈 Stock Price Prediction with LSTM</h3>
-        <p><strong>Tech Stack:</strong> Python, TensorFlow, Keras, YFinance API</p>
-        <p>Developed a deep learning model using LSTM networks for stock price prediction. 
-        Implemented technical indicators and sentiment analysis from news data. 
-        Created a real-time prediction system.</p>
-        <p><strong>Key Results:</strong> Achieved 85% directional accuracy on price movements</p>
-    </div>
-    """, unsafe_allow_html=True)
+
     
-    # Project 3
-    st.markdown("""
-    <div class="project-card">
-        <h3 style="color: #4ecdc4;">🧠 NLP Sentiment Analysis</h3>
-        <p><strong>Tech Stack:</strong> Python, NLTK, spaCy, Transformers, Flask</p>
-        <p>Built a comprehensive sentiment analysis system for social media monitoring. 
-        Implemented both traditional ML and transformer-based approaches. 
-        Deployed as a web API for real-time sentiment scoring.</p>
-        <p><strong>Key Results:</strong> Processing 10K+ tweets per hour with 91% accuracy</p>
-    </div>
-    """, unsafe_allow_html=True)
 
 elif page == "📞 Contact":
-    st.markdown('<h1 class="section-header">📞 Get In Touch</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="section-header"> Get In Touch</h1>', unsafe_allow_html=True)
     
     col1, col2 = st.columns(2)
     
@@ -665,14 +620,14 @@ elif page == "📞 Contact":
         st.markdown("""
         <div class="contact-item">
             <h4>📧 Email</h4>
-            <p>your.email@example.com</p>
+            <p>raishubham999.sr@outlook.com</p>
         </div>
         """, unsafe_allow_html=True)
         
         st.markdown("""
         <div class="contact-item">
             <h4>🔗 LinkedIn</h4>
-            <p>linkedin.com/in/yourprofile</p>
+            <p>linkedin.com/in/shubham-rai-a139761a1</p>
         </div>
         """, unsafe_allow_html=True)
     
@@ -680,14 +635,14 @@ elif page == "📞 Contact":
         st.markdown("""
         <div class="contact-item">
             <h4>📱 GitHub</h4>
-            <p>github.com/yourusername</p>
+            <p>github.com/shubham7007</p>
         </div>
         """, unsafe_allow_html=True)
         
         st.markdown("""
         <div class="contact-item">
             <h4>📍 Location</h4>
-            <p>Your City, Country</p>
+            <p>Lucknow, INDIA</p>
         </div>
         """, unsafe_allow_html=True)
 
