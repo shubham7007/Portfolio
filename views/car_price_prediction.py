@@ -21,18 +21,18 @@ transmission_type = st.selectbox('Transmission Type',['Manual','Automatic'])
 model = st.selectbox('Model',['i20','Swift Dzire','Swift','Alto','City','Wagon R','Grand','Innova',
                               'Verna','i10','Ecosport','Polo','Baleno','Amaze','Ciaz','Eritga',
                               'Creta','XUV500','KWID','Vitara','Scorpio','Figo','Vento','Celerio',
-                              'Duster','Bolero','Fortuner','Rapid','Jazz','BMW-3','Tiago','Santro',
-                              'E-Class','Eeco','C-Class','BMW-5','WR-V','Safari','A4','Superb','Nexon',
+                              'Duster','Bolero','Fortuner','Rapid','Jazz','3','Tiago','Santro',
+                              'E-Class','Eeco','C-Class','5','WR-V','Safari','A4','Superb','Nexon',
                               'Go','RediGo','Ignis','KUV','ASpire','A6','Thar','Octavia','Civic',
-                              'Venue','X1','XF','Rover','Elantra','Endeavour','Hexa','Compass','BMW-7',
+                              'Venue','X1','XF','Rover','Elantra','Endeavour','Hexa','Compass','7',
                               'S-Class','Tigor','GL-Class','FreeStyle','CR-V','Seltos',
-                              'KUV100','BMW-X5','Marazzo','BMW-X3','Audi-Q7','Harrier','Hector','BMW-6','Yaris',
+                              'KUV100','X5','Marazzo','X3','Q7','Harrier','Hector','6','Yaris',
                               'Cooper','Dzire VXI','Cayenne','XUV300','S-Presso','GLS','Triber',
-                              'Tucson','redi-Go','Mercedes-CLS','Kicks','Glanza','Maruti-XL6','D-max','Volvo-XC','BMW-Z4',
-                              'BMW-X4','Audi-A8','Lexus-ES','XC60','Volvo-S90','Jaguar-XE','Carnival','Volvo-XC90','Dzire ZXI',
-                              'Continental','Honda-CR','Panamera','F-Pace','Alturas','X-Trail','MUX',
-                              'Wrangler','Lexus-RX','Lexus-NX','Dzire LXI','Macan','Ghibli','Aura','GTC4Lusso',
-                              'Altroz','Mercedes-C','Ghost','Quattroporte','Gurkha'])
+                              'Tucson','redi-Go','CLS','Kicks','Glanza','XL6','D-max','XC','Z4',
+                              'X4','A8','ES','XC60','S90','XE','Carnival','XC90','Dzire ZXI',
+                              'Continental','CR','Panamera','F-Pace','Alturas','X-Trail','MUX',
+                              'Wrangler','RX','NX','Dzire LXI','Macan','Ghibli','Aura','GTC4Lusso',
+                              'Altroz','C','Ghost','Quattroporte','Gurkha'])
  
 
 #Numerical Inputs
