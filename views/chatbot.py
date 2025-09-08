@@ -8,7 +8,7 @@ import streamlit as st
 def response_generator():
     response = random.choice(
         [
-            "Hey there! Need help? Check out my fun YouTube channel 'CodingIsFun': https://youtube.com/@codingisfun!",
+            "Hey! , Working on it COMING SOON",
 
         ]
     )
