@@ -516,8 +516,8 @@ elif page == "🎓 Education":
         <div class="item-title">Master's in Computer Application</div>
         <div class="item-company">Integral University</div>
         <div class="item-date">2023 - 2025</div>
-        <p>Specialized in Machine Learning, Deep Learning, and Statistical Analysis. 
-        Completed projects in NLP, Computer Vision, and Predictive Analytics.</p>
+        <p>Specialized in Machine Learning and Statistical Analysis. 
+        Completed projects in DataScience And working on MachineLearning and Generative AI projects.</p>
     </div>
     """, unsafe_allow_html=True)
     
