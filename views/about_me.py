@@ -490,10 +490,6 @@ if page == "🏠 Home" or page == "👨‍💻 About Me":
                 <p class="typing-text">Aspiring Data Scientist/AI/ML Engineer & Ex VFX-TD (Tools Dev Python)</p>
             </div>
             <p class="hero-description">Always ready to take challenges and a good learner</p>
-            <div class="cta-buttons">
-                <button class="cta-btn primary">View Projects</button>
-                <button class="cta-btn secondary">Download CV</button>
-            </div>
         </div>
     </div>
     """, unsafe_allow_html=True)
@@ -646,11 +642,3 @@ elif page == "📞 Contact":
         </div>
         """, unsafe_allow_html=True)
 
-# # Footer
-# st.markdown("""
-# <div style="text-align: center; padding: 2rem; margin-top: 3rem; 
-#             background: linear-gradient(90deg, #667eea, #764ba2); 
-#             border-radius: 10px; color: white;">
-#     <p>✨ Built with Streamlit | © 2024 Shubham Rai | Data Science Portfolio ✨</p>
-# </div>
-# """, unsafe_allow_html=True)
