@@ -10,16 +10,16 @@ st.write('data from cardekho web scraping by github/krishnaik')
 
 #Encode Standardize Predict
 #load encoders and model
-with open('views/label_encoders.pkl', 'rb') as f:
+with open('models/label_encoders.pkl', 'rb') as f:
     label_encoders = pickle.load(f)
 
-with open('views/scaler.pkl', 'rb') as f:
+with open('models/scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
 
-with open('views/rf_model.pkl', 'rb') as f:
+with open('models/rf_model.pkl', 'rb') as f:
     car_price_model = pickle.load(f)
 
-with open('views/car_lookup.pkl', 'rb') as f:
+with open('models/car_lookup.pkl', 'rb') as f:
     car_lookup = pickle.load(f)
 
 
