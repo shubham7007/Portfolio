@@ -21,12 +21,17 @@ project_2_page = st.Page(
     icon = ':material/chat:',
 )
 
+project_3_page = st.Page(
+    page = 'views/spam_ham_classification.py',
+    title = 'Spam Ham Mail Classifier',
+    icon = ':material/shield:',
+)
 #navigation setup 
 # pg = st.navigation(pages=[about_page, project_1_page, project_2_page])
 pg = st.navigation(
     {
         "Info": [about_page],
-        "Projects": [project_1_page, project_2_page],
+        "Projects": [project_1_page, project_2_page, project_3_page],
     }
 )
 

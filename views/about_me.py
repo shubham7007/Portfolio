@@ -575,6 +575,7 @@ elif page == "🛠️ Skills":
         <span class="skill-tag">Matplotlib</span>
         <span class="skill-tag">Seaborn</span>
         <span class="skill-tag">Plotly</span>
+        <span class="skill-tag">NLP</span>
     </div>
     """, unsafe_allow_html=True)
     
