@@ -8,6 +8,7 @@ from nltk import sent_tokenize
 from gensim.utils import simple_preprocess
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from gensim.models import Word2Vec, KeyedVectors
+import gensim.downloader as api
 
 
 
@@ -30,7 +31,8 @@ if st.session_state.model_choice == "Custom":
     word2vec_model = gensim.models.Word2Vec.load("models/spam_ham_w2v.model")
     st.info("Using Custom Word2Vec (trained on coupus)")
 else:
-    word2vec_model = gensim.models.Word2Vec.load("models/glove_wiki.model")
+    word2vec_model = gensim.models.Word2Vec.load("models/glove_wiki_small.model")
+    # word2vec_model = api.load("glove-wiki-gigaword-100")
     st.info("Using Pretrained Model")
 
 
