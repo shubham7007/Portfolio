@@ -93,7 +93,7 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 
 # Load your dataset
-df = pd.read_csv("assets/SMSSpamcollection.txt",sep='\t',names=['label', 'message'])   
+df = pd.read_csv("assets/SMSSpamCollection.txt",sep='\t',names=['label', 'message'])   
 df['label'] = df['label'].map({'ham': 0, 'spam': 1})
 
 # Split into train/test
