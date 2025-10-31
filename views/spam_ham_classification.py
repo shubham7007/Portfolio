@@ -159,7 +159,7 @@ if st.button("Run Benchmark"):
             X_test_tokens, y_test
         )
         results_glove = evaluate_model(
-            KeyedVectors.load("models/glove_wiki.model"),
+            KeyedVectors.load("models/glove_wiki_small.model"),
             X_test_tokens, y_test
         )
 
