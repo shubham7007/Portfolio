@@ -604,6 +604,18 @@ elif page == "📊 Projects":
         <p><strong>Key Results:</strong> Helped to search used cars according to brand,seats, engine and other feautures</p>
     </div>
     """, unsafe_allow_html=True)
+    #Project 2
+    st.markdown("""
+    <div class="project-card">
+        <h3 style="color: #4ecdc4;"> Spam Ham Mail Classifier</h3>
+        <p><strong>Tech Stack:</strong> Python, Scikit-learn, Pandas, Streamlit, Github, Word2vec, NLP</p>
+        <p>Built a NLP project classify a mail whether it's spam or not spam , 
+        Implemented preprocessing of message which includes tokenization and lemmatization. 
+        Used Random Forest Classifier and custom trained Word2Vec model for faster results</p>
+        <p>also added glove_wiki pretrained model and score options for side by side comparison</p> 
+        <p><strong>Key Results:</strong> Want to solve spam mail issue</p>
+    </div>
+    """, unsafe_allow_html=True)
     
 
     

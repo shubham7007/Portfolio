@@ -29,7 +29,7 @@ with col2:
 #Load the selected model
 if st.session_state.model_choice == "Custom":
     word2vec_model = gensim.models.Word2Vec.load("models/spam_ham_w2v.model")
-    st.info("Using Custom Word2Vec (trained on coupus)")
+    st.info("Using Custom Word2Vec (trained on SMSSpam data by github/krishnaik)")
 else:
     word2vec_model = gensim.models.Word2Vec.load("models/glove_wiki_small.model")
     # word2vec_model = api.load("glove-wiki-gigaword-100")

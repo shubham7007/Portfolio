@@ -1,0 +1,47 @@
+{
+  "about": "I'm Shubham, Aspiring Data Scientist/AI/ML Engineer & Ex VFX-TD(Tools Dev Python)",
+  "education": "Master Of Computer applications (MCA) in Computer applications from Integral University, graduated in 2025 And BCA from same University 2018 batch",
+  "skills": [
+    "Python",
+    "Pandas",
+    "Numpy",
+    "Scikit-Learn",
+    "Matplotlib",
+    "Seaborn",
+    "Plotly",
+    "NLP",
+    "Git",
+    "Docker",
+    "Jupyter",
+    "Streamlit"
+  ],
+  "projects": {
+    "Used Car Price Estimator": "Helped to search used cars according to brand, seats, engine and other features, machine learning model to predict used car price , Implemented feature engineering, model selection, and hyperparameter tuning. Used Random Forest Regressor for model training,accuracy calculated using r2 score 92% test set",
+    "Spam Ham Mail Classifier": "Streamlit based app to recognize whether the mail is Ham or Spam, NLP project classify a mail whether it's spam or not spam , Implemented preprocessing of message which includes tokenization and lemmatization. Used Random Forest Classifier and custom trained Word2Vec model for faster resultsalso added glove_wiki pretrained model and score options for side by side comparison"
+  },
+  "experience": [
+    {
+      "role": "Tools Developer",
+      "company": "Technicolor India",
+      "duration": "Jan 2020 - Jun 2023",
+      "description": "Developed Python tools and script for VFX pipeline and automation"
+    },
+    {
+      "role": "Freelance Developer",
+      "company": "Self-employed",
+      "duration": "Jul 2023 - Present",
+      "description": "Built custom dashboards and automation tools for small businesses using Streamlit and Python."
+    }
+  ],
+  "certifications": [
+    "Machine Learning by Stanford University (Coursera)",
+    "Deep Learning Specialization (Coursera)",
+    "Docker Essentials (IBM Skills Network)"
+  ],
+  "contact": {
+    "email": "raishubham999.sr@gmail.com",
+    "linkedin": "http://linkedin.com/in/shubham-rai-a139761a1",
+    "github": "https://github.com/shubham7007",
+    "portfolio": "https://raiportfolio.streamlit.app/"
+  }
+}
