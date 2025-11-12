@@ -16,7 +16,8 @@ INTENTS = {
     "education": ["education", "study", "degree", "college", "university"],
     "skills": ["skills", "technologies", "stack", "tools", "tech stack"],
     "projects": ["projects", "work", "portfolio", "apps", "applications"],
-    "experience": ["experience", "career", "job", "internship", "role"]
+    "experience": ["experience", "career", "job", "internship", "role"],
+    "contact": ["contact", "get in touch", "connect"]
 }
 
 def detect_intent(prompt: str):
@@ -48,6 +49,7 @@ def response_generator(prompt):
         response = ", ".join(profile.get("skills", []))
         st.session_state.context["awaiting_project_detail"] = False
 
+
     elif intent == "projects":
         found_project = None
         for name in profile.get("projects", {}).keys():
@@ -74,6 +76,17 @@ def response_generator(prompt):
         ])
         st.session_state.context["awaiting_project_detail"] = False
 
+
+    elif intent == "contact":
+        contact = profile.get("contact", {})
+        response = "\n".join([
+            f"📧 Email — {contact.get('email', 'Not available')}\n",
+            f"💼 LinkedIn — {contact.get('linkedin', 'Not available')}\n",
+            f"🐙 GitHub — {contact.get('github', 'Not available')}\n",
+            f"🌐 Portfolio — {contact.get('portfolio', 'Not available')}\n"
+        ])
+        st.session_state.context["awaiting_project_detail"] = False
+
     # follow-up after project listing
     elif st.session_state.context.get("awaiting_project_detail"):
         found_project = None
@@ -88,7 +101,7 @@ def response_generator(prompt):
             response = "I couldn’t find that project. Please type the exact project name from the list above."
 
     else:
-        response = "🤖 I'm still learning! Try asking about my skills, education, or projects."
+        response = "🤖 I'm still learning! Try asking about my skills, education, contact_details or projects."
         st.session_state.context["awaiting_project_detail"] = False
 
     # stream with preferred delay

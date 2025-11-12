@@ -23,12 +23,13 @@ if not st.session_state.intro_shown:
         welcome_text = (
             "👋 Hi there! I'm **Shubham's Portfolio Chatbot**.\n\n"
             "I can help you explore my background — here’s what you can ask me:\n\n"
-            "• 🧑‍💼 *About me* — Learn who I am and what I do.\n"
-            "• 🎓 *Education* — My academic background.\n"
-            "• 💻 *Skills* — The technologies and tools I use.\n"
-            "• 🚀 *Projects* — The work I’ve done and built.\n"
+            "• 🧑‍💼 *About me* — Learn who I am and what I do.\n\n"
+            "• 🎓 *Education* — My academic background.\n\n"
+            "• 💻 *Skills* — The technologies and tools I use.\n\n"
+            "• 🚀 *Projects* — The work I’ve done and built.\n\n"
             "• 🧠 *Experience* — My professional journey.\n\n"
-            "Go ahead, ask me anything!"
+            "• 📞 *Contact* — About my contact details.\n\n"
+            "Go ahead, ask me anything related to my portfolio!"
         )
 
         placeholder = st.empty()
