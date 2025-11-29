@@ -1,5 +1,5 @@
 {
-  "about": "I'm Shubham, Aspiring Data Scientist/AI/ML Engineer & Ex VFX-TD(Tools Dev Python)",
+  "about": "I'm Shubham, an aspiring Data Scientist and AI/ML Engineer with a unique creative edge. My journey began in the world of visual effects as a VFX Technical Director, where I built tools in Python to bring imagination to life on screen. Now, I'm channeling that same problem solving mindset and technical artistry into data, algorithms, and machine learning. From crafting cinematic magic to engineering intelligent systems, I thrive at the intersection of creativity and computation always learning, always evolving.",
   "education": "Master Of Computer applications (MCA) in Computer applications from Integral University, graduated in 2025 And BCA from same University 2018 batch",
   "skills": [
     "Python",
@@ -10,6 +10,9 @@
     "Seaborn",
     "Plotly",
     "NLP",
+    "Deep Learning",
+    "TensorFlow",
+    "Keras",
     "Git",
     "Docker",
     "Jupyter",
@@ -17,7 +20,8 @@
   ],
   "projects": {
     "Used Car Price Estimator": "Helped to search used cars according to brand, seats, engine and other features, machine learning model to predict used car price , Implemented feature engineering, model selection, and hyperparameter tuning. Used Random Forest Regressor for model training,accuracy calculated using r2 score 92% test set",
-    "Spam Ham Mail Classifier": "Streamlit based app to recognize whether the mail is Ham or Spam, NLP project classify a mail whether it's spam or not spam , Implemented preprocessing of message which includes tokenization and lemmatization. Used Random Forest Classifier and custom trained Word2Vec model for faster resultsalso added glove_wiki pretrained model and score options for side by side comparison"
+    "Spam Ham Mail Classifier": "Streamlit based app to recognize whether the mail is Ham or Spam, NLP project classify a mail whether it's spam or not spam , Implemented preprocessing of message which includes tokenization and lemmatization. Used Random Forest Classifier and custom trained Word2Vec model for faster resultsalso added glove_wiki pretrained model and score options for side by side comparison",
+    "Customer Churn Prediction(ANN)": "In this project, I used a dataset with features such as Credit Score, Geography, Gender, Age, Tenure, Balance, Number of Products, Credit Card status, Active Membership, and Estimated Salary to predict whether a customer is likely to exit or not."
   },
   "experience": [
     {

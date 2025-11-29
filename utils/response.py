@@ -101,7 +101,7 @@ def response_generator(prompt):
             response = "I couldn’t find that project. Please type the exact project name from the list above."
 
     else:
-        response = "🤖 I'm still learning! Try asking about my skills, education, contact_details or projects."
+        response = "🤖 Dude I'm still learning! Try asking about my skills, education, contact_details or projects."
         st.session_state.context["awaiting_project_detail"] = False
 
     # stream with preferred delay

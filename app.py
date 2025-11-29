@@ -26,12 +26,18 @@ project_3_page = st.Page(
     title = 'Spam Ham Mail Classifier',
     icon = ':material/shield:',
 )
+
+project_4_page = st.Page(
+    page='views/CustomerChurnANN.py',
+    title='Customer Churn Prediction ANN',
+    icon=':material/group:',
+)
 #navigation setup 
 # pg = st.navigation(pages=[about_page, project_1_page, project_2_page])
 pg = st.navigation(
     {
         "Info": [about_page],
-        "Projects": [project_1_page, project_2_page, project_3_page],
+        "Projects": [project_1_page, project_2_page, project_3_page, project_4_page],
     }
 )
 

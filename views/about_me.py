@@ -566,7 +566,7 @@ elif page == "🛠️ Skills":
     """, unsafe_allow_html=True)
     
     # Data Science & ML
-    st.markdown("### 🤖 Data Science & ML")
+    st.markdown("### 🤖 Data Science /ML/ DeepLearning")
     st.markdown("""
     <div style="margin: 1rem 0;">
         <span class="skill-tag">Pandas</span>
@@ -576,6 +576,8 @@ elif page == "🛠️ Skills":
         <span class="skill-tag">Seaborn</span>
         <span class="skill-tag">Plotly</span>
         <span class="skill-tag">NLP</span>
+        <span class="skill-tag">TensorFlow</span>
+        <span class="skill-tag">Keras</span>
     </div>
     """, unsafe_allow_html=True)
     
@@ -616,6 +618,19 @@ elif page == "📊 Projects":
         <p><strong>Key Results:</strong> Want to solve spam mail issue</p>
     </div>
     """, unsafe_allow_html=True)
+    #Project 3
+    st.markdown("""
+    <div class="project-card">
+        <h3 style="color: #4ecdc4;"> Customer Churn Prediction (ANN)</h3>
+        <p><strong>Tech Stack:</strong> Python, Scikit-learn, Pandas, Streamlit, Github, TensorFlow, Keras, DeepLearning</p>
+        <p>Built a deep learning project to understand whether the customer will return or not , 
+        What i have worked on- Data processing and feature handling. 
+        built an Artificial Neural Network (ANN) using TensorFlow and Keras</p>
+        <p>Performed hyperparameter tuning to fins out most suitable parameters</p> 
+        <p><strong>Key Results:</strong> Used dataset with features like CreditScore, Salary etc. to predict whether the customer will return or not </p>
+    </div>
+    """, unsafe_allow_html=True)
+
     
 
     

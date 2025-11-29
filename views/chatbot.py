@@ -6,7 +6,7 @@ import re
 
 
 # === Streamlit UI ===
-st.title("💬 Portfolio Chatbot")
+st.title("🤖 Shubham's bot")
 
 # init session state
 if "messages" not in st.session_state:
