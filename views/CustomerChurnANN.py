@@ -91,3 +91,8 @@ if st.button('Predict'):
         
         except Exception as e:
             st.error(f"Something Went Wrong Buddy: {e}")
+
+
+## Footer
+st.markdown('-----------------')
+st.caption("Built using ANN + TensorFlow + Streamlit")

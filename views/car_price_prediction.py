@@ -4,7 +4,7 @@ import streamlit as st
 import pickle
 
 st.set_page_config(page_title='Home', layout='centered')
-st.title('car price prediction app')
+st.title('Used Car Price Prediction App')
 st.write('data from cardekho web scraping by github/krishnaik')
 
 
@@ -97,3 +97,8 @@ if st.button('Predict'):
 
     except Exception as e:
         st.error(f"Something went wrong DUDE: {e}")
+
+
+##Footer
+st.markdown('-----------------')
+st.caption("Built using ML (Regression) + ScikitLearn + Streamlit")

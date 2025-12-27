@@ -32,12 +32,18 @@ project_4_page = st.Page(
     title='Customer Churn Prediction ANN',
     icon=':material/group:',
 )
+
+project_5_page = st.Page(
+    page='views/movie_sentiment_analysis_rnn.py',
+    title='Movie Sentiment Analysis Simple RNN',
+    icon=':material/movie:'
+)
 #navigation setup 
 # pg = st.navigation(pages=[about_page, project_1_page, project_2_page])
 pg = st.navigation(
     {
         "Info": [about_page],
-        "Projects": [project_1_page, project_2_page, project_3_page, project_4_page],
+        "Projects": [project_1_page, project_2_page, project_3_page, project_4_page, project_5_page],
     }
 )
 

@@ -630,6 +630,17 @@ elif page == "📊 Projects":
         <p><strong>Key Results:</strong> Used dataset with features like CreditScore, Salary etc. to predict whether the customer will return or not </p>
     </div>
     """, unsafe_allow_html=True)
+    #Project 4
+    st.markdown("""
+    <div class="project-card">
+        <h3 style="color: #4ecdc4;"> Movie Sentiment Analyser (Simple-RNN)</h3>
+        <p><strong>Tech Stack:</strong> Python, Tensor-Flow, Keras, NLP, Streamlit, Github</p>
+        <p>Built a deep learning based-NLP project to classify movie review as positive or negative Using Simple RNN The Project focuses on understanding sequential text data and sentiment patterns from real-world movie reviews</p> 
+        <p>What i have worked on- Text processing and integer encoding, sequence padding, word embeddings, and training SimpleRNN model for sentiment classification. 
+        for sentiment classification. Experimented with sequence length, activation functions, and regularization techniques tp improve model performance</p>
+        <p><strong>Key Results:</strong> Trained and evaluated the model on the IMDB movie reviews dataset, achieving stable sentiment predictions and deploying the model as an interactive Streamlit web application for real time review analysis </p>
+    </div>
+    """, unsafe_allow_html=True)
 
     
 

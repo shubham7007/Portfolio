@@ -21,7 +21,8 @@
   "projects": {
     "Used Car Price Estimator": "Helped to search used cars according to brand, seats, engine and other features, machine learning model to predict used car price , Implemented feature engineering, model selection, and hyperparameter tuning. Used Random Forest Regressor for model training,accuracy calculated using r2 score 92% test set",
     "Spam Ham Mail Classifier": "Streamlit based app to recognize whether the mail is Ham or Spam, NLP project classify a mail whether it's spam or not spam , Implemented preprocessing of message which includes tokenization and lemmatization. Used Random Forest Classifier and custom trained Word2Vec model for faster resultsalso added glove_wiki pretrained model and score options for side by side comparison",
-    "Customer Churn Prediction(ANN)": "In this project, I used a dataset with features such as Credit Score, Geography, Gender, Age, Tenure, Balance, Number of Products, Credit Card status, Active Membership, and Estimated Salary to predict whether a customer is likely to exit or not."
+    "Customer Churn Prediction(ANN)": "In this project, I used a dataset with features such as Credit Score, Geography, Gender, Age, Tenure, Balance, Number of Products, Credit Card status, Active Membership, and Estimated Salary to predict whether a customer is likely to exit or not.",
+    "Movie Sentiment Analyser (Simple-RNN)": "Trained and evaluated the model on the IMDB movie reviews dataset, achieving stable sentiment predictions and deploying the model as an interactive Streamlit web application for real time review analysis"
   },
   "experience": [
     {
