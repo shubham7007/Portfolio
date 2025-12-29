@@ -16,7 +16,7 @@ st.set_page_config(
 #Load Model and word index
 @st.cache_resource
 def load_rnn_model():
-    return load_model("models/RNN/simple_rnn_imdb_V03.h5")
+    return load_model("models/RNN/simple_rnn_imdb_v03.h5")
 
 @st.cache_resource
 def load_word_index():
